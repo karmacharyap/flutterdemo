@@ -7,6 +7,6 @@ import 'package:demo_drop/drop-game.dart';
 void main() async {
   await Flame.util.fullScreen();
   await Flame.util.setOrientation(DeviceOrientation.portraitUp);
-  final game = DropGame();
+  // final game = DropGame();
   // runApp(game.widget);
 }
